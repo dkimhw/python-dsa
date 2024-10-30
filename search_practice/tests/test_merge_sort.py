@@ -8,7 +8,7 @@ from merge_sort import merge_sort
 class TestMergeSort():
   def test_merge_sort(self, unsorted_list, want):
     # call
-    got = merge_sort(unsorted_list)
+    merge_sort(unsorted_list)
 
     # assert
-    assert want == got
+    assert want == unsorted_list
